@@ -1,0 +1,2 @@
+This Repository contains all C codes implemented in an introduction to C and Embedded Systems Workshop,
+implementing drivers for sensors on the AVR MicroController, the codes worked well on the PCB_Kit.

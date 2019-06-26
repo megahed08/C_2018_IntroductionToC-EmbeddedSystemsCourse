@@ -1,0 +1,59 @@
+#include <stdio.h>
+
+
+int 
+main ()
+{
+  int n = 6;
+  
+  int total = 2n - 1;
+  
+  int position = 1, counter = 1, j = 0;
+ 
+  int beginning = (total / 2) + 1;
+  
+  while (position <= total & counter <= n)
+
+    {
+
+      if (position <= beginning + j & position >= beginning - j)
+
+	{
+
+	  printf ("*");
+
+
+	}
+
+      else
+
+	{
+
+	  printf (" ");
+
+
+	}
+
+      position++;
+
+
+
+      if (position >= total + 1)
+
+	{
+
+	  j++;
+
+	  counter++;
+
+	  printf ("\n");
+
+	  position = 1;
+
+
+	}
+
+
+    }
+
+}
